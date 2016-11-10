@@ -1,19 +1,22 @@
-/* jshint node: true */
-
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'demo-app',
+    modulePrefix: 'demo',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+    firebase: {
+      apiKey: 'AIzaSyBZz8QsexgC9fBD1LpWpqQQEEnF22pVb_4',
+      authDomain: 'maxv-51db1.firebaseapp.com',
+      databaseURL: 'https://maxv-51db1.firebaseio.com',
+      storageBucket: 'maxv-51db1.appspot.com'
+    },
+    torii: {
+      sessionServiceName: 'session'
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
       }
     },
 
