@@ -1,6 +1,6 @@
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'demo',
+    modulePrefix: 'demo-app',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
